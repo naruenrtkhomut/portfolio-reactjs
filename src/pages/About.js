@@ -7,10 +7,31 @@ function About() {
             <div id="about-page">
                 <div>
                     <div class="about-page-headername">Naruenart Khomut</div>
-                    <div class="about-page-headername-01">Senior Production Technology Engineer</div>
+                    <div class="about-page-headername-01">Senior Production Technology Engineer 3+ years</div>
+                    <div class="about-page-headername-01">Programmer 1+ years</div>
+                    <div class="about-page-headername-01">Failure Analysis 3+ years</div>
+                    <div class="about-total">Total work experience 6+ years</div>
+                    <div class="about-project">
+                        <div class="about-project-header">Project list</div>
+                        <div>
+                            1. Autocapture: window application in C# (4.8) with OpenCV. this project is about detection of camera and capture video as a picture frame to frame and send to database (MySQL)
+                        </div>
+                        <div>
+                            2. Work capture: window application in C# (4.8) develop from Autocapture. This project is about detact and capture screen is for detect working time of employee when they in work.
+                        </div>
+                        <div>
+                            3. Summary view: Website with ASP.NET(.net 5.0) and angular with database SQL server and they have server as window server 2016. This project is about summary of car detection in camera and user can summarize in daily, weekly and monthly of car pass through camera and user can view detail of each car by license plate, car type, city and camera number.
+                        </div>
+                        <div>
+                            4. Summarize data on moblie: Android application using JAVA. This project is about android application that can summarize data from server and can detect location in map of camera number.
+                        </div>
+                        <div>
+                            5. Employee daily report: Website of daily report of work with ASP.NET (.net  5.0) and angular with database (MySQL). This project is about website have a sheet as like expel that employee can write down detail of work to this web site.
+                        </div>
+                    </div>
                 </div>
                 <div class="about-paragraph">
-                    <div>Get to know about me</div>
+                    <div class="about-get-to-know">Get to know about me</div>
                     <p>
                         Back in 2015, when I was junior in university my major is Electronic and Telecommunication thrid year of university.
                     </p>

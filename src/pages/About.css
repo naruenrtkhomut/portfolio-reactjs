@@ -3,15 +3,35 @@
     margin: auto;
     display: grid;
     grid-template-columns: 40% 60%;
+    color: #7390b1;
 }
 .about-page-headername {
     font-size: 5vh;
+    color: #b2c6dd;
 }
 .about-page-headername-01 {
-    font-size: 2.5vh;
+    font-size: 2vh;
+    color: #8ba6c5;
 }
 .about-paragraph {
     font-size: 2vh;
     max-height: 90vh;
     overflow: auto;
+}
+.about-total {
+    margin-top: 5%;
+    font-size: 2.5vh;
+    color: #517195;
+}
+.about-get-to-know {
+    color: #b2c6dd;
+    font-size: 3vh;
+}
+.about-project {
+    margin-top: 5%;
+    font-size: 1.5vh;
+    max-width: 90%;
+}
+.about-project-header {
+    font-size: 2.5vh;
 }
