@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#main-application {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 7.5% 90% 2.5%;
+    background-color: #030d13;
+    color: #c8d4dc;
+}
+.main-header {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+#header-menu {
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+    font-size: 2vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#header-menu div {
+    height: fit-content;
+    cursor: pointer;
+}
+.main-headername {
+    margin-top: 2%;
+    margin-left: 2.5%;
+    height: fit-content;
+    width: fit-content;
+    font-size: 2vh;
+}
+.main-resume {
+    border: 0.25vh solid #bdd0dd;
+    width: fit-content;
+    padding: 0 1vh 0 1vh;
+}

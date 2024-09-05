@@ -1,0 +1,17 @@
+#about-page {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.about-page-headername {
+    font-size: 5vh;
+}
+.about-page-headername-01 {
+    font-size: 2.5vh;
+}
+.about-paragraph {
+    font-size: 2vh;
+    max-height: 90vh;
+    overflow: auto;
+}

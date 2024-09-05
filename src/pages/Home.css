@@ -1,0 +1,37 @@
+#home-page {
+    width: 80%;
+    margin-left: auto;
+    font-size: 2.5vh;
+}
+.home-page-headername01 {
+    font-size: 7.5vh;
+    color: #e9f1f5;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.home-page-hi {
+    color: #176894;
+}
+.home-page-headername {
+    font-size: 5vh;
+    color: #98b0bd;
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+.home-page-bief {
+    margin-top: 10vh;
+    width: 80%;
+    font-size: 2.5vh;
+    color: #335a6d;
+}
+.home-page-project-click {
+    margin-top: 5%;
+    border: 0.25vh solid #b8c9d1;
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+    font-size: 5vh;
+    border-radius: 1vh;
+}

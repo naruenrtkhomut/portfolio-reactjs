@@ -1,0 +1,35 @@
+.project-page {
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+}
+.project-page-menu {
+    border-right: 1px solid #ffffff;
+}
+.project-page-menu-header {
+    height: fit-content;
+    font-size: 6vh;
+    text-decoration: underline;
+}
+hr {
+    width: 80%;
+    margin-bottom: 5%;
+}
+.project-page-menu-type {
+    font-size: 4vh;
+}
+.project-page-menu-type div {
+    cursor: pointer;
+    margin-top: 2.5%;
+}
+.project-type {
+    width: 90%;
+    font-size: 2vh;
+    margin-left: 10%;
+}
+.project-type div {
+    margin-right: auto;
+    width: fit-content;
+}
