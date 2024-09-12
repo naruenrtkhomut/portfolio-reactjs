@@ -28,6 +28,7 @@ hr {
     width: 90%;
     font-size: 2vh;
     margin-left: 10%;
+    display: none;
 }
 .project-type div {
     margin-right: auto;

@@ -15,14 +15,20 @@
 }
 .about-paragraph {
     font-size: 2vh;
+    box-sizing: content-box;
     max-height: 90vh;
-    overflow-y: scroll;
-    box-sizing: content-box
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow: scroll;
 }
+.about-paragraph::-webkit-scrollbar {
+    display: none;
+}
+
 .about-total {
     margin-top: 5%;
     font-size: 2.5vh;
-    color: #517195;
+    color: #3e5d81;
 }
 .about-get-to-know {
     color: #ffffff;
@@ -35,6 +41,7 @@
 }
 .about-project-header {
     font-size: 2.5vh;
+    color: #b2c6dd;
 }
 .about-project-list {
     margin-bottom: 2.5%;
@@ -52,6 +59,19 @@ article div img {
     margin-top: 10%;
     width: 80%;
 }
-article div h2 {
-    color: #243d5a;
+article div h3 {
+    color: #a0b0c5;
+}
+.about-click {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.about-click:hover {
+    font-size: 1.5em;
+}
+.about-experience-click {
+    color: #36857c;
+}
+.about-education-click {
+    color: #a56262;
 }

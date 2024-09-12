@@ -2,10 +2,8 @@ import { useState } from 'react';
 import './Home.css';
 
 
-function Home({getPage}) {
-    const setPage = () => {
-        getPage("project");
-    }
+function Home({getPage, __MAINPAGE}) {
+    const projectPage = () => getPage(__MAINPAGE.PROJECT);
     return (
         <>
             <div id="home-page">
@@ -18,7 +16,7 @@ function Home({getPage}) {
                     <p>I have been product engineer I solved the problem of electronic charger and I bulided window application to support team and help my team to work easier</p>
                     <p>I builded some applicaions (wpf, winform, AI) and web sites in some useful and projects</p>
                 </div>
-                <div class="home-page-project-click" onClick={setPage}>My projects</div>
+                <div class="home-page-project-click" onClick={projectPage}>My projects</div>
             </div>
         </>
     )

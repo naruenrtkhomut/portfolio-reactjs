@@ -1,0 +1,38 @@
+.education-main-page {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+.education-header-menu {
+    border-bottom: 1px solid #ffffff;
+    margin-right: 2.5%;
+}
+.education-header-menu:first-child {
+    margin-left: 2.5%;
+}
+.education-header-menu div {
+    display: inline;
+    margin-right: 2%;
+    font-size:  2vh;
+    cursor: pointer;
+    width: fit-content;
+}
+.education-main-view {
+    margin-left: 2.5%;
+}
+.education-headername {
+    margin-top: 2%;
+}
+.education-transcript {
+    margin-top: 2.5%;
+}
+.education-grade-table {
+    width: auto;
+    border: 1px solid #ffffff;
+}
+.education-grade-table tbody, .education-grade-table tbody tr, .education-grade-table tbody tr th, .education-grade-table tbody tr td {
+    border: 1px solid #ffffff;
+}
+.education-grade-table tbody tr th {
+ font-size: 1.5vh;
+}

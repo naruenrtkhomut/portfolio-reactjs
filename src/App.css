@@ -33,6 +33,7 @@ body {
     height: fit-content;
     width: fit-content;
     font-size: 2vh;
+    cursor: pointer;
 }
 .main-resume {
     border: 0.25vh solid #bdd0dd;
